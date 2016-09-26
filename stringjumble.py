@@ -36,5 +36,6 @@ print(txt [::-1])
 'a string has several characters'.count('a')
 
 #import string
-wrds=list(txt)
+Text=list(txt)
+wrds=Text.count(' ') +1
 print(wrds)
