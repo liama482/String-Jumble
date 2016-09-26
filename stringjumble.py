@@ -16,7 +16,7 @@ the user and prints it back in three different ways:
 * With all words in correct order, but letters reversed within 
   the words.
 
-Use: 
+Use: There you go! Good Job!
 
 Output of your program should look like this:
 
@@ -36,4 +36,5 @@ print(txt [::-1])
 'a string has several characters'.count('a')
 
 #import string
-print(txt[1:3])
+wrds=list(txt)
+print(wrds)
