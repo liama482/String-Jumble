@@ -2,6 +2,7 @@
 stringjumble.py
 Author: Liam A
 Credit: http://stackoverflow.com/questions/931092/reverse-a-string-in-python, Wilson
+http://stackoverflow.com/questions/10610158/how-do-i-convert-string-characters-into-a-list
 
 Assignment:
 
