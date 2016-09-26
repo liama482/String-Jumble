@@ -7,7 +7,6 @@ Assignment:
 
 The purpose of this challenge is to gain proficiency with 
 manipulating lists.
-
 Write and submit a Python program that accepts a string from 
 the user and prints it back in three different ways:
 
@@ -31,3 +30,6 @@ print("You entered "+txt+". Now jumble it:")
 #def reverse(b):
  #   b.txt *= -1
 print(txt [::-1])
+
+import string
+string.ascii_lowercase
