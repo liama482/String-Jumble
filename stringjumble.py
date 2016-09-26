@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Liam A
-Credit: http://stackoverflow.com/questions/931092/reverse-a-string-in-python
+Credit: http://stackoverflow.com/questions/931092/reverse-a-string-in-python, Wilson
 
 Assignment:
 
@@ -15,6 +15,8 @@ the user and prints it back in three different ways:
   the correct order.
 * With all words in correct order, but letters reversed within 
   the words.
+
+Use: 
 
 Output of your program should look like this:
 
@@ -31,5 +33,7 @@ print("You entered "+txt+". Now jumble it:")
  #   b.txt *= -1
 print(txt [::-1])
 
-import string
-string.ascii_lowercase
+'a string has several characters'.count('a')
+
+#import string
+print(txt[1:3])
