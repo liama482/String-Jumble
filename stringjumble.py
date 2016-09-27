@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Liam A
-Credit: http://stackoverflow.com/questions/931092/reverse-a-string-in-python, Wilson
+Credit: http://stackoverflow.com/questions/931092/reverse-a-string-in-python, Wilson,
 http://stackoverflow.com/questions/10610158/how-do-i-convert-string-characters-into-a-list
 
 Assignment:
@@ -29,14 +29,17 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
 txt=input("Please enter a string of text (the bigger the better): ")
-print("You entered "+txt+". Now jumble it:")
+txt2='"'+str(txt)+'"'
+print('You entered '+txt2+'. Now jumble it:')
 #def reverse(b):
  #   b.txt *= -1
-print(txt [::-1])
+print(txt [::-1]) #prints the entire line backwords
 
-'a string has several characters'.count('a')
 
 #import string
 Text=list(txt)
 wrds=Text.count(' ') +1
-print(wrds)
+xtrawd = int(wrds +1)
+print(wrds) # delete later
+print(Text [0:xtrawd:-1]) # print each word backwords, but in the correct order
+#for h in range(1,ht+1):
