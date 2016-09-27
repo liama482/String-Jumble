@@ -42,10 +42,10 @@ Text=list(txt)
 """
 
 import re
-#mystr = 'This is a string, with words!'
 Text = re.sub("[^\w]", " ", txt).split()
 
 wrds=int(len(txt))
-print(wrds) # delete later
-print(Text[wrds::-1]) # print each word backwords, but in the correct order
-#for h in range(1,ht+1):
+#print(wrds)
+#print(Text[wrds::-1])
+for v in range(0,wrds):
+    print(Text[v], end=' ')
