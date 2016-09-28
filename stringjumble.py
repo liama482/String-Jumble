@@ -44,8 +44,12 @@ Text=list(txt)
 import re
 Text = re.sub("[^\w]", " ", txt).split()
 
-wrds=int(len(txt))
+wrds=int(len(Text))
 #print(wrds)
 #print(Text[wrds::-1])
-for v in range(0,wrds):
-    print(Text[v], end=' ')
+for v in range(wrds,0,-1):
+    #print(v)
+    print(Text[v-1], end=' ') #prints words in reverse order but the letters in the correct order, within the word
+print(' ')
+for t in range(0,wrds):
+    print(Text[t][::-1], end=' ')
