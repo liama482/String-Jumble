@@ -36,9 +36,8 @@ print(txt [::-1]) #prints the entire line backwords
 
 import re
 Text = re.sub("[^\w]", " ", txt).split()
-
 wrds=int(len(Text))
-#print(wrds)
+
 for v in range(wrds,0,-1):
     print(Text[v-1], end=' ') #prints words in reverse order but the letters in the correct order, within the word
 print(' ')
