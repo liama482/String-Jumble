@@ -34,7 +34,7 @@ print('You entered '+txt2+'. Now jumble it:')
 print(txt [::-1]) #prints the entire line backwords
 
 import re
-Text = re.sub(("[^\w]", "'", ".", "!", "?", """, ":", ";", "/", "[", "]", "(", ")"), " ", txt).split()
+Text = re.sub(("[^\w]", "'", ".", "!", "?", '"', ":", ";", "/", "[", "]", "(", ")"), " ", txt).split()
 wrds=int(len(Text))
 
 for v in range(wrds,0,-1):
