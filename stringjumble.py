@@ -6,7 +6,6 @@ http://stackoverflow.com/questions/10610158/how-do-i-convert-string-characters-i
 http://stackoverflow.com/questions/6181763/converting-a-string-to-a-list-of-words
 
 Assignment:
-
 The purpose of this challenge is to gain proficiency with 
 manipulating lists.
 Write and submit a Python program that accepts a string from 
@@ -35,7 +34,7 @@ print('You entered '+txt2+'. Now jumble it:')
 print(txt [::-1]) #prints the entire line backwords
 
 import re
-Text = re.sub("[^\w]", " ", txt).split()
+Text = re.sub(("[^\w]", "'", ".", "!", "?", """, ":", ";", "/", "[", "]", "(", ")"), " ", txt).split()
 wrds=int(len(Text))
 
 for v in range(wrds,0,-1):
