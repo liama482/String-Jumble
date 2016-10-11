@@ -18,9 +18,9 @@ the user and prints it back in three different ways:
   the words.
 
 Use: There you go! Good Job!
+, "'", ".", "!", "?", '"', ":", ";", "/", "[", "]", "(", ")"
 
 Output of your program should look like this:
-
 Please enter a string of text (the bigger the better): There are a few techniques or tricks that you may find handy
 You entered "There are a few techniques or tricks that you may find handy". Now jumble it:
 ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
@@ -34,7 +34,7 @@ print('You entered '+txt2+'. Now jumble it:')
 print(txt [::-1]) #prints the entire line backwords
 
 import re
-Text = re.sub(("[^\w]", "'", ".", "!", "?", '"', ":", ";", "/", "[", "]", "(", ")"), " ", txt).split()
+Text = re.sub(("[^\w]"), " ", txt).split()
 wrds=int(len(Text))
 
 for v in range(wrds,0,-1):
